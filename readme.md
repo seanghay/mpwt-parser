@@ -13,7 +13,7 @@ npm install mpwt-parser
 ### Usage
 
 ```js
-import { parse } from './index.js'
+import { parse } from 'mpwt-parser'
 
 const result = await parse("http://ts.mpwt.gov.kh/Q01VHN2B");
 ```
