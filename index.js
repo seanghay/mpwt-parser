@@ -13,7 +13,7 @@ function createCookieAgents() {
 }
 
 /** 
- * @typedef {{en: string, km: string}} LocalePair
+ * @typedef {{en: string, km: string} | string} LocalePair
  * @typedef {{
  *  plate_no: LocalePair,
  *  brand: LocalePair,
@@ -58,7 +58,11 @@ export async function parse(url) {
   const englishEntries = createEntries("english")
   const khmerEntries = createEntries("khmer")
   const merged = englishEntries.map(([key, value], index) => {
-    return [key, { en: value, km: khmerEntries[index][1] }]
+    const kmValue = khmerEntries[index][1];
+    if (value === kmValue) {
+      return [key, value]
+    }
+    return [key, { en: value, km: kmValue }]
   })
 
   return snakecaseKeys(Object.fromEntries(merged));

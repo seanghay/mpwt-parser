@@ -22,54 +22,18 @@ Result
 
 ```jsonc
 {
-  "plate_no": {
-    "en": "SIEM REAP 3A-2399",
-    "km": "សៀមរាប 3A-2399"
-  },
-  "brand": {
-    "en": "HYUNDAI COUNTY",
-    "km": "HYUNDAI COUNTY"
-  },
-  "type": {
-    "en": "HEAVY BUS",
-    "km": "ដឹកអ្នកដំណើរធុនធំ"
-  },
-  "color": {
-    "en": "MILK COLOR",
-    "km": "ទឹកដោះគោ"
-  },
-  "engine_no": {
-    "en": "D4D***61727",
-    "km": "D4D***61727"
-  },
-  "frame_no": {
-    "en": "KMJHD1******28960",
-    "km": "KMJHD1******28960"
-  },
-  "power": {
-    "en": "140",
-    "km": "140"
-  },
-  "chassis_no": {
-    "en": "NIL",
-    "km": "NIL"
-  },
-  "axle_no": {
-    "en": "2",
-    "km": "2"
-  },
-  "cylinder_no": {
-    "en": "4",
-    "km": "4"
-  },
-  "cylinder_size": {
-    "en": "3907",
-    "km": "3907"
-  },
-  "year_made": {
-    "en": "2006",
-    "km": "2006"
-  }
+  "plate_no": { "en": "SIEM REAP 3A-2399", "km": "សៀមរាប 3A-2399" },
+  "brand": "HYUNDAI COUNTY",
+  "type": { "en": "HEAVY BUS", "km": "ដឹកអ្នកដំណើរធុនធំ" },
+  "color": { "en": "MILK COLOR", "km": "ទឹកដោះគោ" },
+  "engine_no": "D4D***61727",
+  "frame_no": "KMJHD1******28960",
+  "power": "140",
+  "chassis_no": "NIL",
+  "axle_no": "2",
+  "cylinder_no": "4",
+  "cylinder_size": "3907",
+  "year_made": "2006"
 }
 ```
 
