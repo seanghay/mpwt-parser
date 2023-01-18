@@ -4,6 +4,7 @@
 	"description": "Parse mpwt.gov.kh content",
 	"main": "index.js",
 	"type": "module",
+	"repository": "seanghay/mpwt-parser",
 	"files": [
 		"index.js"
 	],
